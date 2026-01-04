@@ -371,6 +371,49 @@ a {
     color: var(--text-secondary);
 }
 
+/* Privacy Section */
+.privacy-section {
+    padding: 100px 0;
+    background: linear-gradient(to top, var(--bg-color), #0f1420);
+    border-top: 1px solid var(--card-border);
+}
+
+.privacy-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.privacy-desc {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin: 20px 0 40px;
+    word-break: keep-all;
+}
+
+.privacy-badges {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: var(--primary-color);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.check {
+    font-weight: 900;
+}
+
 /* Footer */
 footer {
     padding: 50px 0;
